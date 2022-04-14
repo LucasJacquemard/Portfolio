@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+<html> 
+<head>
+    <title> Portfolio </title> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body> 
+    <div id="Principale">
+        <header>
+            <button class="menu" onclick="window.location.href = '#Presentation'" >A propos de moi</button>  
+            <button class="menu" onclick="window.location.href = '#Portfolio'" >Portfolio</button>
+            <button class="menu" onclick="window.location.href = 'Contact.html'" >Contact</button>  
+        </header>
+        <nav id="Mobile">
+            <div id="Liste-sous-menu">
+                <a href="#menu" id="Retour-menu">X</a>
+                <ul id="Lien">
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = '#Presentation'" >A propos de moi</button>  </li>
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = '#Portfolio'" >Portfolio</button></li>
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = 'Contact.html'" >Contact</button>  </li>
+                </ul>
+            </div>
+            <a href="#Liste-sous-menu" id="Menu">Menu</a>
+        </nav>
+        <div class="image">
+            <div class="texte_image">
+                <h1 id="Titre">Lucas Jacquemard</h1>
+                <p>Étudiant à l'IUT informatique de Bordeaux</p>
+            </div>       
+        </div>
+    </div>
+    <div id="Presentation">
+        <div class="Titre">
+            <h2>A propos de moi</h2>
+        </div>
+        <h3>Lucas Jacquemard, 20ans</h3>
+        <div class="texte">
+            <p>Etudiant de 1ère année en informatique au BUT de Bordeaux, 
+                je suis passionné par l'informatique et les nouvelles technologies.
+                <br>Je recherche actuellement un stage pour pouvoir renforcer 
+                et acquérir de nouvelles compétences.</br>
+                <br>N'hésitez pas à me contacter et à visionner mon portfolio pour plus d'information.</br>
+            </br> Merci et bonne visite.</br></p>
+        </div>     
+    </div>
+    <div class="Titre">
+        <h2>Portfolio</h2>
+    </div>
+    <div id="Portfolio">                   
+        <div class="portfolio_description">
+            <a href="retex/Retex Pong.pdf"><img class="Image_portfolio" src="img/Pong.png"></a>
+            <div class="Portfolio_caption">
+                <h4>Jeu Pong</h4>
+            </div>
+        </div>  
+        <div class="portfolio_description">
+            <a href="retex/Retex Web.pdf"><img class="Image_portfolio" src="img/Web.png"> </a> 
+            <div class="Portfolio_caption">
+                <h4>Site Web</h4>
+            </div>
+        </div>
+        <div class="portfolio_description"> 
+            <a href="retex/Retex Machine virtuel.pdf"><img class="Image_portfolio" src="img/MachineVirtuelle.PNG"></a>
+            <div class="Portfolio_caption">
+                <h4>Machine virtuelle</h4>
+            </div>
+        </div>
+        <div class="portfolio_description"> 
+            <a href="retex/Retex Lowatem.pdf"><img class="Image_portfolio" src="img/Lowatem.PNG"></a>
+            <div class="Portfolio_caption">
+                <h4>Jeu Lowatem</h4>
+            </div>
+        </div>
+        <div class="portfolio_description"> 
+            <a href="retex/Retex Entreprise.pdf"><img class="Image_portfolio" src="img/Entreprise.PNG"></a>
+            <div class="Portfolio_caption">
+                <h4>Création Entreprise</h4>
+            </div>
+        </div> 
+        <div class="portfolio_description">
+            <a href="retex/Retex Base de donée.pdf"><img class="Image_portfolio" src="img/Base de donnée.PNG"></a>
+            <div class="Portfolio_caption">
+                <h4>Création d'une base de données</h4>
+            </div>
+        </div> 
+        <div class="portfolio_description">  
+            <a href="retex/Retex JPO.pdf"><img class="Image_portfolio" src="img/JPO.png"></a>
+            <div class="Portfolio_caption">
+                <h4>Jeu pour la Journée Porte Ouverte</h4>
+            </div>
+        </div>
+    </div>      
+</body>
+</html>
