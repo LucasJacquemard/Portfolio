@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 170%;
+    width: 100%;
+    background-color: #13223A;
+}
+
+body {
+    height: 200%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #13223A;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .header a{
+    color:#fff;
+  }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #13223A;
+  }
+
+.header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #13223A;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #7D6F86;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  .header .menu-btn {
+    display: none;
+  }
+
+.image{
+    display: table-cell;
+    width: 100vw;
+    height: 700px; 
+    margin: 0%;
+    padding: 0%;
+    background:url(img/technology-gff7864ba7_1920.jpg)  ;
+    text-align: center; 
+    vertical-align: middle;  
+}
+
+#Titre{
+    font-size: 70px;
+}
+
+.texte_image{
+    margin: 0%;
+    padding:0%;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000;
+    color: white;
+    font-size: 25px;
+}
+
+#Presentation {
+    background-color: #7D6F86;
+    filter: drop-shadow(0px 3px 5px #7D6F86);
+    width: 100%;
+    height: 400px;
+    min-height: 300px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.texte{
+    margin: 0%;
+    padding:0%;
+    width:70%;
+    height: 100%;
+    font-size: 20px;
+    font-family: var(--wbu-font-stack,Calibri);
+}
+
+.texte center{
+    margin: 8px;
+} 
+
+p{   
+    font-size: 100%;
+    width: 100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    width:100%;
+    padding: 0%;
+    margin:0%;
+    color: #fff;
+}
+
+#Portfolio{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:200%;
+    background-image: url(img/Contact.jpg);
+}
+
+#portfolio_projet{
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.Titre{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.Image_portfolio{
+    width: 400px;
+    height:250px;
+    margin-left: 50px;
+}
+
+.portfolio_description{
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    height: 400px;
+}
+
+.Portfolio_caption{
+    background-color: #7D6F86 ;
+    max-width: 350px;
+    margin-right: 50px;
+    width:350px;
+    height: 250px;
+    color:white;      
+}
+
+.texte_Portfolio{
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+}
+
+.texte_Portfolio p{
+    margin-bottom: 0;
+    margin-left: 20px;
+    height:10%;
+}
+
+.texte_Portfolio .nom_projet{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 0;
+    height: 25%;
+    font-size: 24px;
+}
+
+.texte_Portfolio input{
+    margin-left: 20px;
+    background-color : #E1EFF2;
+    width:50%;
+    height:15%;
+    overflow: hidden;
+    border: 1px solid darkgrey;
+    font-family: arial;
+    font-size: 12px;
+    color: dark;
+    cursor: pointer;
+}
+
+.texte_Portfolio input:hover {
+    background: #7D6F86
+}
+
+#Mobile {
+    display: none;
+}
+
+#Contact {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+#linkedin{
+    height: 30px;
+    width: 30px;
+}
+  
+footer {
+    display: table;
+    justify-content: center;
+    text-align: center;
+    background-color: #7D6F86;
+    color: #fff;
+    bottom: 0;
+}
+  
+@media screen and (max-width: 1000px) {
+     
+    .header .menu {
+      clear: both;
+     max-height: 0;
+    transition: max-height .2s ease-out;
+    }
+      /* menu icon */
+      
+      .header .menu-icon {
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+      }
+      
+      .header .menu-icon .navicon {
+        background: #7D6F86;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+      
+      .header .menu-icon .navicon:before,
+      .header .menu-icon .navicon:after {
+        background: #7D6F86;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .header .menu-icon .navicon:before {
+        top: 5px;
+      }
+      
+      .header .menu-icon .navicon:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+      
+      .header .menu-btn {
+        display: none;
+      }
+      
+      .header .menu-btn:checked ~ .menu {
+        max-height: 240px;
+      }
+      
+
+      .header .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+      .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+      }
+
+    .texte{
+        margin: 0%;
+        padding:0%;
+        height: 100%;
+        font-size: 20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #Presentation{
+        min-height:400px;
+    }
+
+    p{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height:100%;
+    }
+    
+    h3{
+        margin-right: 0%;
+    }
+
+    #Portfolio{
+      height:200%;
+  }
+
+    .texte_Portfolio{
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+        height: 100%;  
+    }
+
+    .texte_Portfolio .nom_projet{
+        font-size: 20px;
+    }
+
+    .Portfolio_caption{
+        width: 250px;
+        height: 230px;
+    }
+
+    .Image_portfolio{
+        width: 250px;
+        height: 230px;
+    }
+    
+}
+
+
+
+
+
+
+
+

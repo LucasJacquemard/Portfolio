@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+<html> 
+<head>
+    <title> Portfolio </title> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body> 
+    <div id="Principale">
+        <header class="header">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#Presentation">À propos de moi</a></li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </header>
+        <nav id="Mobile">
+            <div id="Liste-sous-menu">
+                <a href="#menu" id="Retour-menu">X</a>
+                <ul id="Lien">
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = '#Presentation'" >A propos de moi</button>  </li>
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = '#Portfolio'" >Portfolio</button></li>
+                    <li class="Sous-menu-lien"><button class="menu" onclick="window.location.href = 'Contact.html'" >Contact</button>  </li>
+                </ul>
+            </div>
+            <a href="#Liste-sous-menu" id="Menu">Menu</a>
+        </nav>
+        <div class="image">
+            <div class="texte_image">
+                <h1 id="Titre">Lucas Jacquemard</h1>
+                <p>Étudiant à l'IUT informatique de Bordeaux</p>
+            </div>       
+        </div>
+    </div>
+    <div id="Presentation">
+        <div class="Titre">
+            <h2>A propos de moi</h2>
+        </div>
+        <div class="texte">
+            <CENTER>Bienvenue dans mon portfolio. Je vous invite à explorer mon site pour mieux comprendre mes spécialités, ma technique et mon expérience professionnelle. </CENTER>
+            <CENTER> Vous trouverez ci-dessous mes travaux. Bonne visite ! N'hésitez pas à me contacter pour toute question.</CENTER>
+        </div>     
+    </div>
+    <div id="Portfolio">
+        <div class="Titre">
+            <h2>Portfolio</h2>
+        </div>
+        <div id="portfolio_projet">                 
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Pong.png">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                    <p>Projet</p>
+                    <p class="nom_projet">Jeu Pong</p>
+                    <input type="button" value="Télécharger" onclick="window.location='retex/Retex Pong.pdf'"></input>
+                </div>
+                </div>
+            </div>  
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Web.png">
+                <div class="Portfolio_caption">
+                <div class="texte_Portfolio">
+                    <p>Projet</p>
+                    <p class="nom_projet">Site Web</p>
+                    <input type="button" value="Télécharger" onclick="window.location='retex/Retex Web.pdf'"></input>
+                </div>
+                </div>
+            </div>
+            <div class="portfolio_description"> 
+                <img class="Image_portfolio" src="img/MachineVirtuelle.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Machine virtuelle</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Machine virtuelle.pdf'"></input>
+                    </div>
+                    </div>
+            </div>
+            <div class="portfolio_description"> 
+                <img class="Image_portfolio" src="img/Lowatem.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Jeu Lowatem</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Lowatem.pdf'"></input>
+                    </div>
+                    </div>
+            </div>
+            <div class="portfolio_description"> 
+                <img class="Image_portfolio" src="img/Entreprise.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Création d'entreprise</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Entreprise.pdf'"></input>
+                    </div>
+                    </div>
+            </div> 
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Base de donnée.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Création d'une base de données</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Base de données.pdf'"></input>
+                    </div>
+                    </div>     
+            </div> 
+            <div class="portfolio_description">  
+                <img class="Image_portfolio" src="img/JPO.png">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Jeu pour la Journée Porte Ouverte</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex JPO.pdf'"></input>
+                    </div>
+                </div>  
+            </div>
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Application location.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Application de location de biens</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Application de location de biens.pdf'"></input>
+                    </div>
+                    </div>     
+            </div>
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Graphe.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Projet graphe</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Projet graphe.pdf'"></input>
+                    </div>
+                    </div>     
+            </div>
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/CPDViewer.png">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Application de visualisation de données</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex CPDViewer.pdf'"></input>
+                    </div>
+                    </div>     
+            </div>
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Jeu labyrinthe.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Jeu de labyrinthe</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex jeu labyrinthe.pdf'"></input>
+                    </div>
+                    </div>     
+            </div> 
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/MiniShell.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Création d'un MiniShell</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex MiniShell.pdf'"></input>
+                    </div>
+                    </div>     
+            </div> 
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/MiniRSA.PNG">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Création d'un MiniRSA</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex MiniRSA.pdf'"></input>
+                    </div>
+                    </div>     
+            </div> 
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Conception Application.png">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Réalisation de la conception d'une application</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex Conception application.pdf'"></input>
+                    </div>
+                    </div>     
+            </div>
+            <div class="portfolio_description">
+                <img class="Image_portfolio" src="img/Réseau.png">
+                <div class="Portfolio_caption">
+                    <div class="texte_Portfolio">
+                        <p>Projet</p>
+                        <p class="nom_projet">Configuration d'un serveur DNS</p>
+                        <input type="button" value="Télécharger" onclick="window.location='retex/Retex DNS.pdf'"></input>
+                    </div>
+                    </div>     
+            </div>    
+        </div>  
+    </div> 
+    <div id="Contact">
+        <a href="https://www.linkedin.com/in/lucas-jacquemard-58417b250/"><img src="img/linkedin.svg" id="linkedin"></a>
+    </div>     
+</body>
+<footer>
+    <p>© 2022 Lucas Jacquemard</p>
+</footer>
+</html>
